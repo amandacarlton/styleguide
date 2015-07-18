@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(http://fonts.googleapis.com/css?family=Expletus+Sans:700,500);
+@import url(http://fonts.googleapis.com/css?family=Marvel:400,700);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 1em; }
+
+.main {
+  background-color: rgba(234, 234, 234, 0.9);
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+  margin: 0 auto;
+  width: 800px;
+  color: #050505;
+  padding: 50px;
+  text-align: center; }
+
+body {
+  background-color: rgba(10, 34, 57, 0.5); }
+
+.topic:hover {
+  border: 1px solid #050505;
+  background-color: #307351;
+  color: #EAEAEA; }
+
+p {
+  margin-bottom: 1.3em;
+  text-align: center; }
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  text-align: center;
+  color: #307351; }
+
+h4 {
+  color: #0A2239; }
+
+input:hover {
+  color: #FAA916; }
+
+.news {
+  background-image: url("http://www.g67.com.au/wp-content/uploads/2014/10/newspaper-background-1-wide-wallpaper-background-and-wallpaper-300x240.jpg");
+  padding: 50px; }
+
+h1 {
+  color: #050505;
+  background-color: rgba(234, 234, 234, 0.9);
+  margin-top: 0;
+  font-size: 2.441em;
+  padding: 25px; }
+
+h2 {
+  font-size: 1.953em; }
+
+h3 {
+  font-size: 1.563em; }
+
+h4 {
+  font-size: 1.25em; }
+
+h5, h6 {
+  text-align: center; }
+
+textarea {
+  width: 200px;
+  height: 100px; }
+
+small, .font_small {
+  font-size: 0.8em; }
+
+h1, h2, h3, h4 {
+  font-family: Expletus Sans; }
+
+body {
+  font-family: Marvel;
+  font-weight: bold; }
+
+form {
+  text-align: center;
+  background-color: rgba(10, 34, 57, 0.3);
+  border: 2px solid #050505;
+  color: #050505;
+  width: 400px;
+  align-self: center;
+  margin: 0 auto;
+  padding: 30px; }
+
+p.gender label {
+  margin: 10px; }
+
+p.female {
+  margin-left: 11px; }
+
+label, legend {
+  text-decoration: underline; }
+
+table {
+  width: 70%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto; }
+  table td {
+    text-align: center; }
+  table tr:nth-of-type(even) {
+    background-color: rgba(10, 34, 57, 0.1); }
+  table th {
+    background-color: #307351;
+    color: #EAEAEA; }
+
+ul {
+  text-align: center; }
+
+li {
+  text-align: center; }

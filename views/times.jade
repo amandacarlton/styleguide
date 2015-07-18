@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title
+    |     
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  |   
+  body
+   div.main
+    div.news
+      h1.new NYTimes Style Guide
+      
+    p
+    for item in info
+     div.topic
+       a(href=item.url)
+        h4=item.title 
+       p=item.abstract
+  
